@@ -8,9 +8,17 @@ function Footer()
     
     return (
         <footer className="footer--container">
-            <img src={LinkedIn} alt="mailto:someone@yoursite.com"/>
-            <img src={Instagram} />
-            <img src={Github}/>
+            <div className="footer--container_icons">
+                <a href="https://www.linkedin.com/in/idilugurnal/" target="_blank">
+                    <img src={LinkedIn} />
+                </a>
+                <a>
+                    <img src={Instagram} />
+                </a>
+                <a href="https://github.com/idilugurnal" target="_blank">
+                    <img src={Github} />
+                </a>
+            </div>
         </footer>  
     )
 }
