@@ -15,10 +15,7 @@ function Main()
             </form>
             <form action="https://www.linkedin.com/in/idilugurnal/" method="get" target="_blank">
             <button className="main--button_linkedIn"  type="submit">
-                    <div className="main--button_content">
-                            <img src={LinkedIn} className="main--button_icon" />
-                            <p className="button--title"> LinkedIn</p>
-                    </div>
+                    LinkedIn
                 </button>
             </form>
             </div>
